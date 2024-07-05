@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    text-align: center;
+    background-image: url(asset/scenario.jpg);
+    height:400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    color: white;
+    
+    
+}
+
+.content{
+    width: 50%;
+    }
+
+
+ h1{
+    color: cyan;
+    font-size: 50px;
+    font-weight: 900;
+    
+}
+
+
+
+
+p{
+    line-height: 1.5;
+    font-size: 20px;
+    padding: 15px;
+}
+
+ a{
+    display: inline-block;
+    background-color: blue;
+    padding: 1em 3.5rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 16px
+}
+
+a:hover{
+    background-color:rgb(43, 68, 6);
+    
+}
+
+.blank{
+    width: 100%;
+    min-height: 60vh;
+    background-color: #333;
+}

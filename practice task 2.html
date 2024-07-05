@@ -4,8 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        form{
+            text-align: center;
+        }
+        textarea{
+        height:200px;
+        width:400px;
+    }
+    label{
+        display: block;
+    }
+    .select{
+        padding: 5px;
+        width: 100px;
+    }
+    .submit{
+        margin: 10px auto;
+        padding: 7px 100px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    </style>
 </head>
 <body>
-    
+    <header>
+
+    </header>
+
+    <main>
+        <form>
+            <label for="story">Share your story:</label>
+            <textarea name="" id=""></textarea><br>
+
+           
+            <select class="select">
+                <option value="Good" active>Good</option>
+                <option value="better">better</option>
+                <option value="best">best</option>
+            </select>
+
+            <label for="submit"></label>
+            <input type="submit" class="submit" value="Submit">
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 </html>
